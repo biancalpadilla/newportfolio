@@ -121,6 +121,34 @@ background-color: #e7e7e7;
 
 }
 
+.carousel-inner {
+    border: 1.5px solid #777;
+}
+
+.carousel-indicators li {
+    background-color: #000;
+    background-color: #CCC;
+    border: 1px solid #777;
+}
+
+.carousel-indicators .active {
+    background-color: #555;
+    /*border: 1px solid #555;*/
+}
+
+.carousel-indicators {
+    margin-bottom: -3%;
+}
+
+.align {
+  padding-top: 6px;
+  padding-bottom: 2px;
+}
+
+.align-left {
+  padding-right: 40px;
+}
+
 
 @media only screen and (orientation: portrait) and (max-width: 767px)  {
     .jumbotron {
