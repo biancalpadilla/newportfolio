@@ -1,37 +1,103 @@
-html, body { background-size: cover; color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100%; }
-body { padding-top: 70px; font-size: 15px; line-height: 1.64;}
+html,
+body {
+  background-size: cover;
+  color: #434242;
+  font-family: 'Open Sans', sans-serif !important;
+  height: 100%;
+}
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px;}
-h1 { font-weight: 700; margin-bottom: 10px; text-align: center}
-h2,h3 { font-weight: 300; margin-bottom: 30px}
-h2 { font-size: 54px; text-align: center; }
-h3 { font-size: 28px; }
+body {
+  padding-top: 70px;
+  font-size: 15px;
+  line-height: 1.64;
+}
 
-p.lead { text-align: center; }
-p.lead a { text-decoration: underline; }
-p.lead a:hover { text-decoration: none; }
-ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
-hr { border-color: black; margin: 40px 0px; opacity: 0.4; filter:alpha(opacity=20); }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+strong,
+b {
+  font-family: 'Open Sans', sans-serif !important;
+  margin-bottom: 20px;
+}
 
-.container { max-width: 1280px; padding: 40px 180px; }
+h1 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center
+}
+
+h2,
+h3 {
+  font-weight: 300;
+  margin-bottom: 30px
+}
+
+h2 {
+  font-size: 54px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+p.lead {
+  text-align: center;
+}
+
+p.lead a {
+  text-decoration: underline;
+}
+
+p.lead a:hover {
+  text-decoration: none;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  border-color: black;
+  margin: 40px 0px;
+  opacity: 0.4;
+  filter: alpha(opacity=20);
+}
+
+.container {
+  max-width: 1280px;
+  padding: 40px 180px;
+}
 
 .carousel-inner {
-    border: 1.5px solid #777;
+  border: 1.5px solid #777;
 }
 
 .carousel-indicators li {
-    background-color: #000;
-    background-color: #CCC;
-    border: 1px solid #777;
+  background-color: #000;
+  background-color: #CCC;
+  border: 1px solid #777;
 }
 
 .carousel-indicators .active {
-    background-color: #555;
-    /*border: 1px solid #555;*/
+  background-color: #555;
+  /*border: 1px solid #555;*/
 }
 
 .carousel-indicators {
-    margin-bottom: -3%;
+  margin-bottom: -3%;
 }
 
 div#profile .fa {
@@ -47,33 +113,59 @@ p {
   padding-top: 5px;
 }
 
-p.stasher-text, p.other-text, h5.other-text {
+p.stasher-text,
+p.other-text,
+h5.other-text {
   padding-top: 10px;
 }
 
-.jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; }
-.jumbotron .container > * { text-align: center; color: #FFFFFF; }
-.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
-.jumbotron .container .lead { font-size: 28px; }
+.jumbotron .container {
+  position: relative;
+  top: 28%;
+  z-index: 4;
+  text-align: center;
+}
 
-.jumbotron .overlay { background-color: black; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.65; filter:alpha(opacity=75); z-index: 2; }
+.jumbotron .container > * {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.jumbotron .container h1 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: rgba(255, 255, 255, 0.35);
+  display: inline-block;
+}
+
+.jumbotron .container .lead {
+  font-size: 28px;
+}
+
+.jumbotron .overlay {
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0.65;
+  filter: alpha(opacity=75);
+  z-index: 2;
+}
 
 .jumbotron {
   background: no-repeat center right fixed url(https://static.pexels.com/photos/6471/woman-hand-smartphone-desk.jpg);
-
   -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale')";
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
-
+  filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
   margin-top: -20px;
   padding-top: 250px;
   padding-bottom: 223px;
@@ -89,8 +181,8 @@ p.stasher-text, p.other-text, h5.other-text {
 }
 
 .awards-row .img-responsive {
-  padding-top:30px;
-  padding-bottom:30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .awards-row .col-md-8 {
@@ -106,13 +198,12 @@ p.stasher-text, p.other-text, h5.other-text {
 }
 
 .awards-row .col-md-8 .njtech {
-  padding-top:-20px;
+  padding-top: -20px;
 }
 
 .awards-row .col-md-8 .forbes {
   padding-top: 10px;
 }
-
 
 .center {
   vertical-align: middle;
@@ -121,7 +212,6 @@ p.stasher-text, p.other-text, h5.other-text {
 nav {
   background-color: #f2f2f2;
   color: gray;
-
   padding-left: 438px;
   padding-top: 5x;
   padding-bottom: 0px;
@@ -130,14 +220,14 @@ nav {
 nav.navbar-default {
   border-color: #eee;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(100,100,100,0.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(100, 100, 100, 0.6);
 }
 
-.navbar-default .navbar-nav>.active>a,  {
-color: gray;
-background-color: #e7e7e7;
-
+.navbar-default .navbar-nav>.active>a,
+{
+  color: gray;
+  background-color: #e7e7e7;
 }
 
 .align {
@@ -149,13 +239,16 @@ background-color: #e7e7e7;
   padding-right: 40px;
 }
 
+.color {
+  background-color: rgba(58, 176, 246, 0.64);
+  color: white;
+}
 
-@media only screen and (orientation: portrait) and (max-width: 767px)  {
-    .jumbotron {
-      -webkit-background-size: auto 100%;
-      background-attachment: scroll;
-    }
-
+@media only screen and (orientation: portrait) and (max-width: 767px) {
+  .jumbotron {
+    -webkit-background-size: auto 100%;
+    background-attachment: scroll;
+  }
   /*  .jumbotron .overlay {
       background-color: black;
       position: absolute;
@@ -167,59 +260,51 @@ background-color: #e7e7e7;
       opacity: 0.65;
       filter:alpha(opacity=75); z-index: 2;
    }*/
-
-     .container {
-      padding: 10px 50px;
-    }
-
-    .details {
-      text-align: center;
-    }
-
-    nav {
-      background-color: #f2f2f2;
-      color: gray;
-      padding-left: 20px;
-      padding-top: 50x;
-      padding-bottom: 0px;
-    }
-
+  .container {
+    padding: 10px 50px;
+  }
+  .details {
+    text-align: center;
+  }
+  nav {
+    background-color: #f2f2f2;
+    color: gray;
+    padding-left: 20px;
+    padding-top: 50x;
+    padding-bottom: 0px;
+  }
 }
-@media only screen and (orientation: landscape) and (max-width: 850px)  {
 
- /*   .jumbotron {
+@media only screen and (orientation: landscape) and (max-width: 850px) {
+  /*   .jumbotron {
       -webkit-background-size: 125% auto;
       background-attachment: scroll;
     }*/
-
-    .jumbotron .overlay {
-      background-color: black;
-      position: absolute;
-      top: 0px;
-      bottom: 20px;
-      left: 0px;
-      right: 0px; opacity: 0.65; filter:alpha(opacity=75); z-index: 2; }
-
-    .container {
-     padding: 30px 30px;
-    }
-
-    .details {
-      text-align: center;
-    }
-
-    nav .container .ul .li {
-      text-align: center;
-    }
-
-    nav {
-      background-color: #f2f2f2;
-      color: gray;
-      padding-left: 50px;
-      padding-top: 20x;
-      padding-bottom: 0px;
-    }
-
-
-
+  .jumbotron .overlay {
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.65;
+    filter: alpha(opacity=75);
+    z-index: 2;
+  }
+  .container {
+    padding: 30px 30px;
+  }
+  .details {
+    text-align: center;
+  }
+  nav .container .ul .li {
+    text-align: center;
+  }
+  nav {
+    background-color: #f2f2f2;
+    color: gray;
+    padding-left: 50px;
+    padding-top: 20x;
+    padding-bottom: 0px;
+  }
 }
